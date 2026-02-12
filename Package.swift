@@ -37,7 +37,7 @@ let package = Package(
             path: "VAMPPangleAdapterTarget"
         ),
         .binaryTarget(name: "VAMPPangleAdapter",
-                      url: "https://d2dylwb3shzel1.cloudfront.net/iOS/VAMPPangleAdapter-v7.6.600.zip",
+                      url: "https://d2dylwb3shzel1.cloudfront.net/iOS/VAMPPangleAdapter-v7.9.600.zip",
                       checksum: "c458b29f5c24ef1f304efceff0be9dc648b836a34724f8b837b631c8c038ee86")
     ]
 )
