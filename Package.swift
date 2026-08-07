@@ -21,7 +21,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/bytedance/AdsGlobalPackage",
-            exact: "8.2.0-release.8"
+            exact: "8.2.0-release.9"
         ),
     ],
     targets: [
@@ -37,7 +37,7 @@ let package = Package(
             path: "VAMPPangleAdapterTarget"
         ),
         .binaryTarget(name: "VAMPPangleAdapter",
-                      url: "https://d2dylwb3shzel1.cloudfront.net/iOS/VAMPPangleAdapter-v8.2.800.zip",
-                      checksum: "85c52c56334c937ea3b668f3933b71bb9dd09fe546e3a004fac9b236f938f7ff")
+                      url: "https://d2dylwb3shzel1.cloudfront.net/iOS/VAMPPangleAdapter-v8.2.900.zip",
+                      checksum: "4fe1d8694e9c94b2c4bd86d7e374fb9f1d598abc0e897390a6d0350bd0fd4252")
     ]
 )
