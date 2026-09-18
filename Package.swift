@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "VAMP-Pangle-iOS-Adapter",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v15)
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
@@ -21,7 +21,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/bytedance/AdsGlobalPackage",
-            exact: "8.3.0-release.6"
+            exact: "8.3.0-release.7"
         ),
     ],
     targets: [
@@ -37,7 +37,7 @@ let package = Package(
             path: "VAMPPangleAdapterTarget"
         ),
         .binaryTarget(name: "VAMPPangleAdapter",
-                      url: "https://github.com/AdGeneration/VAMP-Pangle-iOS-Adapter/releases/download/8.3.600/VAMPPangleAdapter-v8.3.600.zip",
-                      checksum: "f7ab69202dc52a2e719d69fad6d520e8a31ca4bf0faab6f739479867d9f3a11e")
+                      url: "https://github.com/AdGeneration/VAMP-Pangle-iOS-Adapter/releases/download/8.3.700/VAMPPangleAdapter-v8.3.700.zip",
+                      checksum: "20419bd32dd0ae3eb9fe00999d35041381d654d599177677128a623696b2be53")
     ]
 )
